@@ -1,0 +1,337 @@
+
+
+#body{
+    background-image: url(../img/fundoAlimento.jpg);
+    /*background-color: silver;*/
+}
+#menuSuperior{
+   border-style: solid;
+   width:100%;
+   height: 2.5em;
+   background-image:url(../img/fundoAzul4.jpg);
+   border-color: white;
+}
+#capa{
+    border-style:solid;
+    width:60%;
+    height: 20em;
+    margin-left: 20%;
+    border-radius: 0.3em;
+    background-image: url(../img/alimentos1.jpg);
+    border-color: white;
+}
+#menuCapa{
+    border-style: solid;
+    width: 100%;
+    height: 2.5em;
+    margin-left: -0.1%;
+    margin-top: 17.3em;
+    border-radius: 0.3em;
+    background-image: url(../img/fundo.png);
+    border-color: white;
+}
+#menuEsquerdo{
+   
+    width:15%;
+    height: 27em;
+    margin-top: 0.75em;
+    margin-left: 16.5em;
+ 
+
+
+}
+#fotoPerfil{
+    border-style: solid;
+    width: 10em;
+    height: 10em;
+    border-radius:5em;
+    margin-top: -10.3em;
+    margin-left:2em;
+    background-image: url(../img/bracoFraco.jpg);
+    background-repeat: no-repeat;
+    background-size: 15em;
+    border-color: white;
+    background-position: center;
+   
+}
+
+
+#fotoPerfil:hover{
+    background-image: url(../img/legumeForte.jpg);
+    background-repeat: no-repeat;
+    background-size: 10em;
+    
+}
+
+#conteudo{
+    border-style: solid;
+    width: 50.2em;
+    height: 50em;
+    margin-left: 16.7em;
+    margin-top: -27.3em;
+    background-image: url(../img/fundo.png);
+    border-color: white;
+}
+
+#frame{
+    height: 100%;
+    width: 100%;
+    
+}
+
+#rodape{
+    
+    border-style: solid;
+    width: 111.5em;
+    height: 15em;
+    margin-left: -34%;
+    border-radius: 0.3em;
+    background-image: url(../img/fundo.png);
+    border-color: white;
+}
+/*#########################################################*/
+li a:hover {
+    background-color:white;
+    height:1.7em;
+    margin-top:-0.1em;
+    border-radius: 0.1em;
+    color:black;
+}
+.linkMenu {
+    font-size: x-large;
+    display: block;
+    color: #111;
+    text-decoration: none;
+    margin-top:0.05em;
+}
+li{
+    float:right;
+    margin-right:2.5em;
+    color:black;
+}
+
+.ulMenu{
+    list-style-type: none;
+    overflow: hidden;
+    margin-top:0em;
+  
+}
+/*#########################################################*/
+
+#linha1{
+    border-style: solid;
+    border-color: white;
+    width: 14em;
+    height: 44em;
+    border-radius: 0.3em;
+    margin-left: 2.5em;
+}
+
+.foto{
+    border-style: solid;
+    border-color: white;
+    width: 13em;
+    height: 8em;
+    border-radius: 0.3em;
+    margin-top: 0.3em;
+    margin-left: 0.3em;
+}
+
+#linha2{
+    border-style: solid;
+    border-color: white;
+    width: 14em;
+    height: 44em;
+    border-radius: 0.3em;
+    margin-left: 17.5em;
+    margin-top: -44.4em;
+    
+    
+}
+/*#################################*/
+
+.botaoMenuEsquerdo{
+    width: 100%;
+    height: 2em;
+    border-bottom: solid;
+    border-color:silver;
+    margin-top:-0.3em;   
+}
+.alinhamentoBotaoMenu{
+    margin-top:0.2em;
+    font-size:1.4em;
+    text-align:center;
+}
+
+.botaoMenuEsquerdo:hover{
+    border-radius: 0.2em;
+    background-color:silver ;
+    
+}
+a{
+    display: block;
+    overflow: hidden;
+}
+
+img{
+    width: 100%; 
+    height: 100%;
+}
+
+/*##########################################3*/
+
+
+#tabela{
+    border-style: solid;
+    width: 70%;
+    height: 100%;
+    margin-left: 15%;
+    background-color: white;
+    border-color: white;
+    
+}
+/*########################LOGIN####################################*/
+#bodyLogin{
+    background-image: url(../img/fundoAlimento.jpg);
+}
+
+#login{
+    background-image:url(../img/degrade1.jpg);
+    border-style: solid;
+    width: 30%;
+    height: 23em;
+    margin-left: 28em;
+    margin-top: 8em;
+    border-radius: 1em;
+    border-color: white;
+}
+
+input{
+    margin-left: 3%;
+}
+
+.aCad{
+    text-decoration: none;
+    font-family: verdana;
+    font-style: italic;
+    font-size: 25px;
+    padding: 7px;
+    text-align: center;
+    margin-top: 40px;
+    color: black;
+}
+.aCad:hover{
+    color:silver;
+}
+
+p{
+    font-family: verdana;
+    font-style: italic;
+    font-size: 25px;
+    
+}
+
+#textLogin{
+    background-image:url(../img/fundoAzul4.jpg);
+    border-style: solid;
+    border-radius: 1em;
+    width: 50%;
+    height: 15em;
+    margin-top: -23em;
+    margin-left: 3em;
+    
+    
+}
+
+h1{
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+h2{
+    text-align: left;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: verdana, sans-serif;
+}
+
+/*##############################CADASTRO#######################################3*/
+
+.divH2CadDieta{
+    margin-top: 5em;
+    border-style: solid;
+    width: 22em;
+    height: 3em;
+    margin-left: 35%;
+    background-color:deepskyblue;
+    border-radius: 1em;
+    border-color:deepskyblue;
+}
+.h2CadDieta{
+    padding: -3em;
+    margin-left: 1em;
+    margin-top: 0.3em;
+    color:white
+}
+
+#bodyCad{
+    background-image: url(../img/fundoAlimento.jpg);
+    
+    height: 50em
+}
+
+.h2{
+    text-decoration-color: deepskyblue;
+}
+#fieldsetCad{
+    width:50%;
+    height: 45em;
+    margin-left: 20%;
+    margin-top: -0.5em;
+    border-radius: 1em;
+    background-color:deepskyblue;
+}
+
+.h1Alinhamento{
+    margin-left:40%;
+    margin-top: 2em;
+    
+}
+
+.aCad2{
+    text-decoration: none;
+    font-family: verdana;
+    font-style: italic;
+    font-size: 25px;
+    padding: 7px;
+    text-align: center;
+    margin-top: -35px;
+    color: black;
+}
+.aCad2:hover{
+    color:blue;
+}
+
+
+video{
+    width:100%;
+    height: 100%;
+}
+
+#audio{
+    margin-top:-4em ;
+
+}
+
+#h2Feedback{
+   text-align: left;
+}
+
+.aDownload{
+    text-decoration: none;
+}
+
+.h3Rodape{
+    text-decoration-color: black;
+    text-align: center;
+}

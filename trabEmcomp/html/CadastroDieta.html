@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>DietaÉpiscicológico.com</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css"  href="../css/estilo.css">
+        
+    </head>
+    <body id="bodyCad">
+        <div class='divH2CadDieta'>
+            <h2 class='h2CadDieta'>Cadastre Sua Dieta:</h2><br>
+        </div><br><br>
+        <div>
+            
+            <form action="../php/cadastrarDieta.php" method="POST" name="formCadDieta">
+                <fieldset id="fieldsetCad">
+                    
+                    Nome Da Dieta:<input name="nomeDieta" size="45" placeholder="Insira seu nome completo"><br><br>
+                    
+                    <h3>Café Da Manhã:</h3>
+
+                    Alimento Principal:
+                    <select name="alimentoPrincipal">
+                        <option> </option>
+                        <option>Pão Francês</option>
+                        <option>Pão De Forma</option>
+                        <option>Pão De Forma Integral</option>
+                        <option>Biscoito De Sal</option>
+                        <option>Cereais</option>
+                        <option>Salada De Frutas</option>
+                    </select>&nbsp;&nbsp;&nbsp;&nbsp;
+                    Complemento:
+                    <select name="complemento">
+                        <option> </option>
+                        <option>Manteiga</option>
+                        <option>Requeijão</option>
+                        <option>Geléia</option>
+                        <option>Pasta De Amendoin</option>
+                        <option>Patê De Atum</option>
+                    </select><br><br>
+                    Bebida Matinal:
+                    <select name="bebidaMatinal">
+                        <option> </option>
+                        <option>Café</option>
+                        <option>Suco De Laranja</option>
+                        <option>Suco De Úva</option>
+                        <option>Batida De Ervas</option>
+                        <option>Leite</option>
+                        <option>Vitamina</option>
+                    </select><br><br>
+
+                    <h3>Almoço:</h3>
+
+                    Carne:
+                    <select name="carneAlmoco">
+                        <option> </option>
+                        <option>Filé Bovino</option>
+                        <option>Filé Suino</option>
+                        <option>Filé De peixe</option>
+                        <option>Frango</option>
+                        <option>Fígado De Galinha</option>
+                        <option>Picanha</option>
+                    </select>
+
+                    Verdura:
+                    <select name="verduraAlmoco">
+                        <option> </option>
+                        <option>Alface</option>
+                        <option>Couve</option>
+                        <option>Almeirão</option>
+                        <option>Rúcula</option>
+                        <option>Couve Flor</option>
+                        <option>Agrião</option>
+                    </select>
+
+                    Bebida Almoço
+                    <select name="bebidaAlmoco">
+                        <option> </option>
+                        <option>Suco De Laranja</option>
+                        <option>Suco De Uva</option>
+                        <option>Batida De Ervas</option>
+                        <option>Vinho</option>
+                        <option>Água</option>
+                        <option>Água Tonica</option>
+                    </select>
+                    
+                    <h4>Incluso Arroz e Feijão</h4><br>
+
+                    <h3>Café Da tarde:</h3>
+                    Alimento Principal:
+                    <select name="principalCafeTarde">
+                        <option> </option>
+                        <option>Pão Francês</option>
+                        <option>Pão De Forma</option>
+                        <option>Pão De Forma Integral</option>
+                        <option>Biscoito De Sal</option>
+                        <option>Cereais</option>
+                        <option>Salada De Frutas</option>
+                    </select>&nbsp;&nbsp;&nbsp;&nbsp;
+                    Complemento:
+                    <select name="complementoCafeTarde">
+                        <option> </option>
+                        <option>Manteiga</option>
+                        <option>Requeijão</option>
+                        <option>Geléia</option>
+                        <option>Pasta De Amendoin</option>
+                        <option>Patê De Atum</option>
+                    </select><br><br>
+                    Bebida Da Tarde:
+                    <select name="bebidaCafeTarde">
+                        <option> </option>
+                        <option>Café</option>
+                        <option>Suco De Laranja</option>
+                        <option>Suco De Úva</option>
+                        <option>Batida De Ervas</option>
+                        <option>Leite</option>
+                        <option>Vitamina</option>
+                    </select><br><br>
+                    
+                    <h3>Jantar:</h3>
+
+                    Carne:
+                    <select name="carneJantar">
+                        <option> </option>
+                        <option>Filé Bovino</option>
+                        <option>Filé Suino</option>
+                        <option>Filé De peixe</option>
+                        <option>Frango</option>
+                        <option>Fígado De Galinha</option>
+                        <option>Picanha</option>
+                    </select>
+
+                    Verdura:
+                    <select name="verduraJantar">
+                        <option> </option>
+                        <option>Alface</option>
+                        <option>Couve</option>
+                        <option>Almeirão</option>
+                        <option>Rúcula</option>
+                        <option>Couve Flor</option>
+                        <option>Agrião</option>
+                    </select>
+
+                    Bebida Jantar
+                    <select name="bebidaJantar">
+                        <option> </option>
+                        <option>Suco De Laranja</option>
+                        <option>Suco De Uva</option>
+                        <option>Batida De Ervas</option>
+                        <option>Vinho</option>
+                        <option>Água</option>
+                        <option>Água Tonica</option>
+                    </select>
+                
+                    <h4>Incluso Arroz e Feijão</h4><br><br>
+
+                    <button type="submit" onclick="return validaFormDieta()">Cadastrar</button> <br><br>
+                   
+                </fieldset>
+            </form>
+        </div>
+        
+        <script src="../js/validaCadDieta.js"></script>
+    </body>
+</html>
